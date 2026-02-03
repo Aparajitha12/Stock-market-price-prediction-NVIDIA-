@@ -1,4 +1,4 @@
-# Stock-Market-Price-Prediction-NVIDIA
+# Stock Market Price Prediction-NVIDIA
 
 This project presents a deep learning-based approach to forecasting NVIDIA stock prices using Convolutional Neural Networks (CNNs) and Short-Time Fourier Transform (STFT) spectrograms. The model includes embedded logic for buy/sell signal generation, offering insights into long-term market trends. NVIDIA’s historically dynamic price behavior particularly notable around 2016, provides a relevant testbed for evaluating model performance in high-variance financial contexts.
 
