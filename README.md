@@ -3,16 +3,20 @@
 This project presents a deep learning-based approach to forecasting NVIDIA stock prices using Convolutional Neural Networks (CNNs) and Short-Time Fourier Transform (STFT) spectrograms. The model includes embedded logic for buy/sell signal generation, offering insights into long-term market trends. NVIDIA’s historically dynamic price behavior particularly notable around 2016, provides a relevant testbed for evaluating model performance in high-variance financial contexts.
 
 ## Repository Contents
-
 - `Nvidia Data.csv`  
-  Historical stock price dataset used for training and evaluation.
+  Historical stock data for NVIDIA used in preprocessing and training.
 
-- `NVIDIA_Stock_Price_Prediction.ipynb`  
-  Jupyter Notebook implementing the complete workflow, including:
-  - Data preprocessing  
-  - Spectrogram generation using STFT  
-  - CNN model architecture and training  
-  - Prediction visualization and signal generation
+- `nvidia_stock_prediction_part1_preprocessing_modelling.ipynb`  
+  Covers data preprocessing, STFT transformation, spectrogram generation and CNN model.
+
+- `nvidia_stock_prediction_part2_evaluation_results_.ipynb`  
+  Contains training, prediction with 95% confidence interval, generation of buy/sell signals and evaluation metrics.
+
+- `requirements.txt`  
+  Lists required Python packages for reproducing the project.
+
+- `README.md`  
+  Project documentation and usage instructions.
 
 ## Features
 
